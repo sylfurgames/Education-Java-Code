@@ -1,0 +1,35 @@
+body {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+.less {
+  text-align: center;
+}
+.less1 {
+  background: #2d2d2d;
+  margin: 30px;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  text-align: left;
+}
+.button-ed {
+  background: #ff900e;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+}
+.button-back {
+  text-align: left;
+  background: #ff900e;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+}
