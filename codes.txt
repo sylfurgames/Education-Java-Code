@@ -1,0 +1,7 @@
+<div class="console"><p>Console</p>
+<pre>
+<code>
+
+</code>
+</pre>
+</div>

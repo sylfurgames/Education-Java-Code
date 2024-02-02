@@ -14,7 +14,7 @@ h1 {
   padding: 20px;
   border: none;
   border-radius: 30px;
-  text-align: left;
+  /* text-align: left; */
 }
 .button-ed {
   background: #ff900e;

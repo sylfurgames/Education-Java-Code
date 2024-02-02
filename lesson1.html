@@ -9,6 +9,7 @@
     
         <!--Prism connection-->
     <link href="prism.min.css" rel="stylesheet">
+    <link href="console.css" rel="stylesheet">
     <script src="prism.min.js"></script>
     <script src="prism-java.min.js"></script>
     
@@ -126,7 +127,7 @@ world, с помощью оператора "+", он работает так, �
 иначе, если оба слагаемых это числа, то он сложить эти 2 числа.
 
 Пример :
-
+<pre><code class="language-java">
 package com.example.test;
 
 public class Main {
@@ -134,9 +135,10 @@ public class Main {
         System.out.print("hello_" + "world_" + (53 + 7));
     }
 }
-
-Выведет в консоль :
+  </code></pre>
+  <div class="console"><p>Console</p>
 hello_world_60
+  </div>
 
 Как вы могли заметить сложение 2-х чисел, я поместил в
 скобки, иначе у вас сложится ранее полученый текст "hello_world_"
@@ -160,12 +162,16 @@ public class Main {
         System.out.print("Имя : " + name + "\nВозвраст : " + age + "\nСчастье : " + isHappy);
     }
 }
-      </code></pre>
-Выведет в консоль :
+  </code></pre>
+<div class="console"><p>Console</p>
+<pre>
+<code>
 Имя : Alexey
 Возвраст : 7
 Счастье : true
-
+</code>
+</pre>
+</div>
 Как вы могли заметить, перед некоторыми строками, я написал "\n"
 эта штука, делает перевод на следующую строку.
   </p>
