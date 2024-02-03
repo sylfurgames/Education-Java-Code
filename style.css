@@ -5,6 +5,9 @@ body {
 h1 {
   text-align: center;
 }
+a {
+  color: #fff;
+}
 .less {
   text-align: center;
 }
@@ -20,9 +23,10 @@ h1 {
   background: #ff900e;
   color: #fff;
   padding: 7px 20px;
-  margin: 20px;
+  margin: 3px;
   border: none;
   border-radius: 20px;
+  box-shadow: 0 0 10px #ff900e;
 }
 .button-back {
   text-align: left;
@@ -32,4 +36,14 @@ h1 {
   margin: 5px;
   border: none;
   border-radius: 20px;
+  box-shadow: 0 0 10px #ff900e;
+}
+.info {
+  background: #101010;
+  color: #fff;
+  margin: 200px auto;
+  padding: 30px;
+  border: solid #ff900e;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #ff900e;
 }
