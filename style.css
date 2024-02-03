@@ -11,7 +11,7 @@ a {
 .less {
   text-align: center;
 }
-.less1 {
+/* .less1 {
   background: #2d2d2d;
   min-width: 1200px;
   max-width: 2500px;
@@ -19,8 +19,25 @@ a {
   padding: 20px;
   border: none;
   border-radius: 30px;
-  /* text-align: left; */
+  text-align: left; 
+  -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+} */
+.less1 {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border: none;
+  border-radius: 50px;
+
+  color: #fff;
+  background-color: #2d2d2d;
+  padding: 20px;
+  width: auto;
 }
+
 .button-ed {
   background: #ff900e;
   color: #fff;
