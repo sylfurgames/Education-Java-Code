@@ -25,7 +25,7 @@ a {
     -ms-hyphens: none;
     hyphens: none;
 } */
-.less1 {
+/* .less1 {
   justify-content: center;
   align-items: center;
   height: auto;
@@ -36,7 +36,7 @@ a {
   background-color: #2d2d2d;
   padding: 20px;
   width: auto;
-}
+} */
 
 .button-ed {
   background: #ff900e;
@@ -65,4 +65,26 @@ a {
   border: solid #ff900e;
   border-radius: 7px;
   box-shadow: 0 0 10px #ff900e;
+}
+
+.less1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+/* Пример использования медиа-запросов для адаптивности */
+@media (max-width: 768px) {
+    .less1 {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.tg {
+  font-family: Monaco;
+  color: cornflowerblue;
 }
